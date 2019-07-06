@@ -1,0 +1,73 @@
+#logo{
+  float:right;
+  margin-top: 5px;
+}
+header{
+  background-color:inherit;
+  padding-bottom:auto;
+}
+body{
+  background-color:#b71c1c;
+}
+.container{
+  background-color: white;
+}
+.navbar{
+  border-width: inherit;
+  padding: 5px;
+  margin-bottom: auto;
+}
+.img-social{
+display: inline-block;
+}
+.nav-item{
+background-color:#80cbc4;
+color:black;
+margin-left: 5px;
+margin-right: 5px;;
+}
+p{
+  text-align: justify;
+  color: black;
+}
+.img-marea {
+  float: right !important;
+  margin-left: 10px !important;
+  padding: 1px;
+}
+.img-aconcagua{
+  float: left !important;
+  margin-right: : 10px !important;
+  margin-top: 25px;
+  padding: 1px;
+}
+.text{
+  float: left !important;
+}
+.inner-addon {
+position: relative;
+}
+.inner-addon .glyphicon {
+position: absolute;
+padding: 5px;
+pointer-events: none;
+}
+.left-addon .glyphicon {
+  left: 0px;
+}
+.right-addon .glyphicon {
+   right: 0px;
+ }
+.left-addon input {
+  padding-left: 30px;
+ }
+.right-addon input {
+ padding-right: 30px;
+ }
+ .glyphicon-user{
+   font-size: 20px;
+
+ }
+ textarea{
+   margin-top: 10px;
+ }

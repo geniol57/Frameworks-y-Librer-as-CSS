@@ -1,0 +1,108 @@
+.gastronomia-body{
+  background: url(../img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+.titulo{
+  border-right: 1px solid white;
+}
+h2{
+  color:white;
+}
+h5{
+  color: white;
+
+}
+h4{
+  color: #f06292;
+}
+
+.contenedor-padre{
+  background-color: rgb(197, 202, 233,0.4);
+  display: block;
+  margin: 2% 5%
+}
+.contenedor-hijo{
+  border-top: 1px solid white;
+  margin: 1% 1%
+}
+
+#busqueda{
+  background-color: #c5cae9 !important;
+  border: 0;
+}
+#pencil{
+background-color:#f06292 ;
+color: black!important;
+padding: 10px 15px;
+margin-top: 2px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 15px;
+cursor: pointer;
+}
+.izquierda{
+  background-color: #c5cae9!important;
+  border-radius: 10px;
+  height:50%;
+  margin: 1px;
+}
+.button1 {
+  background-color: #f06292 !important;
+  border-color:#f06292;
+  color: black;
+  padding: 10px 15px;
+  margin-top: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+.button{
+  border-color:#f06292!important;
+  color: #f06292!important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px;
+}
+.receta{
+  border-bottom: 1px solid black;
+}
+
+.historial{
+color:#f06292;
+font-size: 15px;
+}
+@media (max-width:638px) {
+  .contenedor-hijo{
+    border-top: 0;
+  }
+}
+.caja{
+  font-size: 15px;
+}
+span{
+  color: red;
+}
+.comentarios{
+border:solid #9e9e9e 1px;
+border-radius: 10px;
+padding: 5px;
+margin: 2px;
+}
+.callout{
+  background-color:#fff3e0;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: none;
+}

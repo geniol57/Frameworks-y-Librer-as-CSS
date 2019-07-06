@@ -1,0 +1,76 @@
+.turismo-body{
+  background: url(../img/fondo1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+header{
+  min-height: 7rem;
+  width: 100%;
+}
+
+.icon{
+  margin: 5px;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+#logo{
+margin-top:12%;
+border-radius: 5px;
+margin-left: 20%;
+}
+a{
+  margin: 8px;
+}
+.imagenes{
+  width: 100% !important;
+}
+.be{
+  width: 10px;
+}
+@media (max-width:645px) {
+  .contenedor-botones{
+    text-align: right;
+  }
+}
+@media (max-width:1260px) {
+  .contenedor-botones{
+    text-align: right;
+  }
+}
+@media (min-width:660px) {
+h4{
+padding-left:4%;
+float:left;
+}
+}
+
+@media (min-width:660px){
+.centro{
+  width: 30%!important;
+  padding-left:1%!important;
+  padding-right: 1%!important;
+}
+
+.izquierda{
+  width: 20%!important;
+}
+}
+.be{
+margin-right:8px!important;
+margin-left:8px!important;
+}
+.bu{
+  background-color: white;
+  margin-right:8px!important;
+  margin-left:8px!important;
+}
+
+@media (max-width:500px) {
+  #babel{
+    width: 100%;
+
+  }
+}
